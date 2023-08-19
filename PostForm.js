@@ -16,7 +16,7 @@ const PostForm = () => {
     setContent("");
   };
   
-  // PostForm.js - 1  
+  // PostForm.js - 2  
 
   return (
     <div className='post-form'>
