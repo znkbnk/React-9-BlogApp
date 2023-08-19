@@ -1,3 +1,5 @@
+//Post.js
+
 import React, { useContext } from "react";
 import { BlogContext } from "./BlogContext";
 import Post from "./Post";
@@ -15,3 +17,4 @@ const PostList = () => {
 };
 
 export default PostList;
+
