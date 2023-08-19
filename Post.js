@@ -1,3 +1,5 @@
+// Post.js - 1
+
 import React, { useContext, useState } from "react";
 import { BlogContext } from "./BlogContext";
 
@@ -19,6 +21,8 @@ const Post = ({ post }) => {
     setIsEditing(false);
   };
 
+// Post.js - 2
+  
   return (
     <div className='post'>
       {isEditing ? (
