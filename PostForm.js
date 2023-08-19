@@ -1,3 +1,5 @@
+// PostForm.js - 1
+
 import React, { useContext, useState } from "react";
 import { BlogContext } from "./BlogContext";
 
@@ -13,6 +15,8 @@ const PostForm = () => {
     setTitle("");
     setContent("");
   };
+  
+  // PostForm.js - 1  
 
   return (
     <div className='post-form'>
